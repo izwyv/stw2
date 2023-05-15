@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Volunteer Mainpage</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='volunteer_page.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Volunteer Mainpage</h2>
+        <h4>Hi{{ name }}! These are the functions you may require to assist the users with!</h4> 
+    </div>
+
+    <div class="chatbox"> <a href="/chatinterface">chat with them !</a> </div>
+    <div class="account"> <a href="/accountprofile"> Account Profile</a> </div>
+    <div class="location"> <a href="/location">Real-time location</a> </div>
+    <div class="feedback"> <a href="/feedback"> Task History and Feedback</div> </p>
+    <p class="links"> <a href="/resources"> Resources and Support</a>  </p>
+
+</body>
+</html>
