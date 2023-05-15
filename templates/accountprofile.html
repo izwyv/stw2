@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Account Profile</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='profile.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Account Profile</h2>
+        <h3>Welcome, {{ name }}</h3>
+        <p>Username: {{ username }}</p>
+        <p>Age: {{ age }}</p>
+        <p>Contact Number: {{ number }}</p>
+        <p>Address: {{ address }}</p>
+        <p>Account Type: {{ choice }}</p>
+    </div>
+</body>
+</html>
