@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ElderBridge</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="background-image"></div>
+  <div class="container">
+    <h1 class="app-title">ElderBridge</h1>
+    <div class="button-container">
+      <a href="{{ url_for('signup') }}" class="landing-button">Sign Up</a>
+      <a href="{{ url_for('login') }}" class="landing-button">Log In</a>
+    </div>
+  </div>
+</body>
+</html>
