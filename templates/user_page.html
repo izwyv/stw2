@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Mainpage</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='user_page.css') }}">
+</head>
+<body>
+  <div class="container">
+        <h2>User Mainpage</h2>
+        <h4>Hi{{ name }}! Feel free to make use of the following functions!</h4>
+  </div>
+  chat
+    <p class="chatbox"> <a href="/chatinterface">chat with them !</a> </p>
+    <p class="account"> <a href="/accountprofile"> Account Profile</a> </p>
+    <p class="location"> <a href="/location">Real-time location</a> </p>
+    <p class="feedback"> <a href="/feedback"> Task History and Feedback</a> </p>
+    <p class="links"> <a href="/resources"> Resources and Support</a> </p>
+</body>
